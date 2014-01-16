@@ -1,0 +1,9 @@
+{
+    "tutorial_title" :{
+            "videosrc": "the_video_source",
+            "image": "image_jpg",
+            "description": "description_short",
+            "author": "the author",
+            "authorurl": "the_author_url"
+    }
+}

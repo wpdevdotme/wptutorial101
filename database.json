@@ -1,0 +1,17 @@
+{
+    "The Dashboard" :{
+            "videosrc": "http://blip.tv/play/h697gsmjSAI.html?p=1",
+            "image": "dashboard.jpg",
+            "description": "The first tutorial in this series, will hlp you understand how the dashboard works, and how you can make customize it to fit your needs.",
+            "author": "the_author",
+            "authorurl": "http://example.com/"
+    },
+
+    "Creating A New Post" :{
+            "videosrc": "http://blip.tv/play/h697gsmkUgI.html?p=1",
+            "image": "newpost.jpg",
+            "description": "Learn how to create, save ans publish new posts along with an introduction into the WYSIWYG editor and visual/html variation.",
+            "author": "the_author",
+            "authorurl": "http://example.com/"
+    }
+}

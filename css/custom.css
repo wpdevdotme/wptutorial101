@@ -1,0 +1,200 @@
+/**
+ * WP-Tutorial-101 - Custom styles
+ * @author Adrian S. (https://www.amsquared.co.uk/)
+ * @version 1.0
+ */
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, san-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body.single-tutorial{
+    margin-top: 0px;
+}
+
+body.single-tutorial .navbar{
+    display: none;
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+}
+
+.navbar{
+    background: #2a6496;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAGXRF…fg0QNIUqWYnsttsY5aYh4OqIub5zySzd1O+Tr39dvAQYAbcbvW7WdSeAAAAAASUVORK5CYII=");
+    font-size: 14px;
+    z-index: 999;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background: #f2f2f2;
+}
+
+.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li > a:active{
+    background: #ffffff;
+}
+
+.navbar-default .navbar-nav.navbar-branded > li > a{
+    font-weight: normal;
+}
+
+.navbar-default .navbar-nav.navbar-branded > li > a:hover,
+.navbar-default .navbar-nav.navbar-branded > li > a:active,
+.navbar-default .navbar-nav.navbar-branded > li > a:focus{
+    background: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-nav.navbar-branded,
+.navbar-default .navbar-nav.navbar-branded > li > a:hover,
+.navbar-default .navbar-nav.navbar-branded > li > a:active,
+.navbar-default .navbar-nav.navbar-branded > li > a:focus{
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.navbar-default .navbar-nav.navbar-branded > li.separator > a{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-default .navbar-brand{
+    background: url("../images/wordpress-logo-32-blue.png") no-repeat left center;
+    padding-left: 40px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active{
+    color: #000;
+    background-image: url("../images/wordpress-logo-32-blue-shadow.png");
+}
+
+.btn{
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#menu-toggle {
+    top: 10px;
+    right: 10px;
+    position: fixed;
+    z-index: 9;
+    opacity: .3;
+}
+
+#menu-toggle:hover{
+    opacity: 1;
+}
+
+.align-center{
+    text-align: center;
+}
+
+img.img-circle{
+    float: none;
+    margin: 0px auto;
+}
+
+.page-header{
+    margin-top: 70px;
+}
+
+.tutorial-listing{
+    margin-bottom: 40px;
+}
+
+.tutorial-listing p > a img.img-number{
+    z-index: 1;
+}
+
+.tutorial-listing p:last-child{
+    min-height: 100px;
+    line-height: 1.6;
+    height: auto;
+}
+
+.container-home p, .container-home ul{
+    line-height: 1.6;
+}
+
+.tutorial-listing p a img.img-number:hover, .tutorial-listing p a img.img-number:active{
+    margin-left: -100px;
+    opacity: 0;
+    z-index: 1;
+}
+
+.tutorial-listing p a{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.tutorial-listing p a img.img-preview{
+    opacity: 0;
+    position: relative;
+    top: -200px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #2a6496;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tutorial-listing p a img.img-preview:hover{
+    z-index: 99;
+    display: block;
+    opacity: 1;
+}
+
+.tutorial-show{
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: url("../images/huge-preloader.gif") no-repeat center center fixed;
+}
+
+.tutorial-show iframe{
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.bottom-logos img{
+    margin: 15px 15px;
+    height: 30px;
+    width: auto;
+}
+
+footer{
+    color: #333;
+    padding-top: 20px;
+    border-top: 1px solid #2a6496;
+    background: #E3E3E3;
+}
+
+.fb-like .g-plusone{
+    float: left;
+}
