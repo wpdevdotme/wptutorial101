@@ -71,7 +71,7 @@ global $Tutorials; $i=1;
                 or help your non-techie friends and/or clients make the first steps inside this beautiful publishing platform.
             </p>
             <p>
-                Fell free to <a href="#share-tutorials-site">share</a>, discuss and <a href="#github-repo">post your opinion/suggestion</a>.
+                Fell free to share, discuss and <a href="https://github.com/wpdevdotme/wptutorial101/issues" target="_blank">post your opinion/suggestion</a>.
             </p>
             <p id="share-tutorials-site"> Share this awesome tutorials site with your friends: <br/></p>
             <div class="share-buttons">

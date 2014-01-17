@@ -27,5 +27,6 @@ $Tutorials = array(
     array('Custom Menus', 'http://blip.tv/play/h697gtH3QQI.html?p=1', 'painted-facade-1422756-m.jpg', 'Learn how to manage the main menu and other menus on your website.'), // #13
     array('Plugins', 'http://blip.tv/play/h697gtH3QwI.html?p=1', 'tools-324936-m.jpg', 'Want more functionality? here\'s where plugins come in handy. See how you can enhance your website using them.'), // #14
     array('Users', 'http://blip.tv/play/h697gtKHdgI.html?p=1', 'one-step-2-1181506-m.jpg', 'Learn how to add, edit and remove users with access the administration side of your website.'), // #15
-    array('Tools', 'http://blip.tv/play/h697gtKHcwI.html?p=1', 'office-equipment-909060-m.jpg', 'See various bits of functionality and integrations WordPress has to offer, generically called "tools".') // #16
+    array('Tools', 'http://blip.tv/play/h697gtKHcwI.html?p=1', 'office-equipment-909060-m.jpg', 'See various bits of functionality and integrations WordPress has to offer, generically called "tools".'), // #16
+    array('Creating a child theme', '//www.youtube.com/embed/HrS33H2kMso', 'tea-cup-1260139-m.jpg', 'Start with the first steps into customizing themes and creating your own child theme.') // #17
 );

@@ -11,6 +11,10 @@ function embed_video($url){
     if( strpos($url, 'blip.tv') > 0 ){ //embed blip.tv
         return '<iframe class="video" src="' . $url . '?autoStart=true" width="600" height="276" frameborder="0" allowfullscreen></iframe>';
     }
+
+    if( strpos($url, 'youtube.com') > 0 ){ //embed youtube.com
+        return '<iframe width="640" height="360" src="' . $url . '" frameborder="0" allowfullscreen></iframe>';
+    }
 }
 
 $otut_id = intval($_GET['tut']); $tut_id= $otut_id -1;
