@@ -28,5 +28,7 @@ $Tutorials = array(
     array('Plugins', 'http://blip.tv/play/h697gtH3QwI.html?p=1', 'tools-324936-m.jpg', 'Want more functionality? here\'s where plugins come in handy. See how you can enhance your website using them.'), // #14
     array('Users', 'http://blip.tv/play/h697gtKHdgI.html?p=1', 'one-step-2-1181506-m.jpg', 'Learn how to add, edit and remove users with access the administration side of your website.'), // #15
     array('Tools', 'http://blip.tv/play/h697gtKHcwI.html?p=1', 'office-equipment-909060-m.jpg', 'See various bits of functionality and integrations WordPress has to offer, generically called "tools".'), // #16
-    array('Creating a child theme', '//www.youtube.com/embed/HrS33H2kMso', 'tea-cup-1260139-m.jpg', 'Start with the first steps into customizing themes and creating your own child theme.') // #17
+    array('Basic customization of the theme', '//www.youtube.com/embed/C0vy_47pjAc', 'sextante-1128036-m.jpg', 'In this tutorial you\'ll find out how you can personalize the default Twenty Eleven theme.'), // #17
+    array('Using the file editor', '//www.youtube.com/embed/kVkCfv9wdf0', 'code-468319-m.jpg', 'Short intro to get you comfortable with the file editor. A powerful tool for advanced users.'), // #18
+    array('Creating a child theme', '//www.youtube.com/embed/HrS33H2kMso', 'tea-cup-1260139-m.jpg', 'Start with the first steps into customizing themes and creating your own child theme.') // #19
 );

@@ -13,7 +13,7 @@ function embed_video($url){
     }
 
     if( strpos($url, 'youtube.com') > 0 ){ //embed youtube.com
-        return '<iframe width="640" height="360" src="' . $url . '" frameborder="0" allowfullscreen></iframe>';
+        return '<iframe width="640" height="360" src="' . $url . '?wmode=opaque" frameborder="0" allowfullscreen></iframe>';
     }
 }
 

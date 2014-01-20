@@ -9,6 +9,10 @@ body{
     font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, san-serif;
 }
 
+html.full{
+    background: none;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -16,6 +20,7 @@ html, body {
 
 body.single-tutorial{
     margin-top: 0px;
+    overflow: hidden;
 }
 
 body.single-tutorial .navbar{
@@ -124,7 +129,7 @@ img.img-circle{
 }
 
 .tutorial-listing p:last-child{
-    min-height: 100px;
+    min-height: 110px;
     line-height: 1.6;
     height: auto;
 }
@@ -168,15 +173,17 @@ img.img-circle{
 }
 
 .tutorial-show{
-    display: table;
+    display: block;
     height: 100%;
     width: 100%;
     position: relative;
-    background: url("../images/huge-preloader.gif") no-repeat center center fixed;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background: #999999 url("../images/huge-preloader.gif") no-repeat center center fixed;
 }
 
 .tutorial-show iframe{
-    min-height: 200px;
     width: 100%;
     height: 100%;
     z-index: 1;
